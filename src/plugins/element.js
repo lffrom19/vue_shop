@@ -9,7 +9,11 @@ import {
   Aside,
   Header,
   Main,
-  Table
+  Table,
+  Menu,
+  Submenu,
+  MenuItemGroup,
+  MenuItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -21,10 +25,11 @@ Vue.use(Aside)
 Vue.use(Header)
 Vue.use(Main)
 Vue.use(Table)
-Vue.use(Main)
-Vue.use(Main)
-Vue.use(Main)
-Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItemGroup)
+Vue.use(MenuItem)
+
 
 
 
