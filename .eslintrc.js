@@ -15,7 +15,8 @@ module.exports = {
     'no-trailing-spaces': 0,
     'padded-blocks': 0,
     'no-multiple-empty-lines': 0,
-    'indent':0
+    'indent':0,
+    'vue/no-unused-vars':0
   },
   parserOptions: {
     parser: 'babel-eslint'
