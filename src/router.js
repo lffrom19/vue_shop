@@ -34,10 +34,16 @@ const router = new Router({
       },
       children: [{
         path: '/welcome',
-        component: Welcome
+        component: Welcome,
+        meta: {
+          title: '首页-后台管理系统'
+        }
       }, {
         path: '/users',
-        component: Users
+        component: Users,
+        meta: {
+          title: '用户-后台管理系统'
+        }
       }]
     }
   ]
